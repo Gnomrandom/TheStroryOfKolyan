@@ -33,5 +33,10 @@ namespace Gun
                 break;
             }
         }
+
+        private void InstantiateBullets(int index)
+        {
+            GameObject bullet = Instantiate(_bullets[index]);
+        }
     }
 }
