@@ -1,4 +1,4 @@
-﻿
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 namespace Gun
@@ -7,7 +7,7 @@ namespace Gun
     {
         private void OnTriggerEnter2D(Collider2D collision)
         {
-                Destroy(gameObject);
+            Destroy(gameObject);
         }
     }
 }
